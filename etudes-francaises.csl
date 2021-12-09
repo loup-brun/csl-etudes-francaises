@@ -15,13 +15,14 @@
     <issn>0014-2085</issn>
     <issn>1492-1405</issn>
     <summary>Références pour le style Études françaises. Aussi utilisé par les Presses de l’Université de Montréal (PUM).</summary>
-    <updated>2021-12-08T21:17:00-05:00</updated>
+    <updated>2021-12-08T22:36:00-05:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
     <terms>
       <term name="editor" form="short">dir.</term>
       <term name="translator" form="short">trad. de</term>
+      <term name="collection-number" form="short">nº</term>
       <term name="in">dans</term>
       <term name="paragraph" form="symbol">§</term>
       <term name="accessed">page consultée le</term>
@@ -160,7 +161,10 @@
   <macro name="collection">
     <group delimiter=" ">
       <text variable="collection-title" quotes="true" />
-      <text variable="collection-number"/>
+      <group delimiter="&#xA0;">
+      <label variable="collection-number" form="short" />
+        <text variable="collection-number"/>
+      </group>
     </group>
   </macro>
   <macro name="title">
