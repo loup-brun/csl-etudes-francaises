@@ -30,6 +30,8 @@
       <term name="accessed">page consultée le</term>
       <term name="online" suffix=" :">disponible en ligne</term>
       <term name="volume" form="short">vol.</term>
+      <term name="loc-cit" form="short">loc. cit.</term>
+      <term name="op-cit" form="short">op. cit.</term>
     </terms>
   </locale>
   <locale xml:lang="en">
@@ -42,6 +44,8 @@
       <term name="open-inner-quote">‘</term>
       <term name="close-inner-quote">’</term>
       <term name="online">available online</term>
+      <term name="loc-cit" form="short">loc. cit.</term>
+      <term name="op-cit" form="short">op. cit.</term>
     </terms>
   </locale>
   <macro name="volume">
@@ -348,6 +352,20 @@
         </if>
         <else-if position="ibid">
           <text term="ibid" text-case="capitalize-first" font-style="italic"/>
+        </else-if>
+        <else-if position="subsequent">
+          <group delimiter=", ">
+            <text macro="author"/>
+            <choose>
+              <if type="book" match="any">
+                <text term="op-cit" form="short" font-style="italic"/>
+              </if>
+              <else-if type="article-journal article-magazine article-newspaper chapter" match="any">
+                <text term="loc-cit" form="short" font-style="italic"/>
+              </else-if>
+            </choose>
+            <text macro="pages-citation"/>
+          </group>
         </else-if>
         <else>
           <text macro="full-note"/>

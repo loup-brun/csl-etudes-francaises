@@ -18,6 +18,7 @@ Ce style est également utilisé par les [Presses de l’Université de Montréa
 - Les citations dans le texte seront rendues en appel de note.
 - Respect de l’année de publication initiale (entre crochets `[aaaa]`). Dans Zotero, il s’agit d’entrer la `date` de publication comme suit : `1995 [1976]`.
 - Volumes/tomes : indiquer le **volume** en chiffres réguliers (par ex. `1`, `2` ou `12`), le style fera le rendu en chiffres romains et ajoutera le préfixe `vol.`. S’il faut plutôt indiquer un **tome**, ajouter manuellement le préfixe `t.` et écrire le numéro du tome chiffres romains, par ex. `t. III`.
+- *Ibid.* / *op. cit.* / *loc. cit.* : insertion automatique du `ibid.` lorsque la référence qui précède immédiatement est identique; *op.cit.* (monographie) ou *loc. cit.* (article, chapitre) lorsque l’ouvrage est déjà cité, mais pas immédiatement avant.
 
 ## Tests
 
