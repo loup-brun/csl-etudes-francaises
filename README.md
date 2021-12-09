@@ -15,8 +15,9 @@ Ce style est également utilisé par les [Presses de l’Université de Montréa
 ## Notes
 
 - Respect de règles de micro-typographie (espaces insécables en français, avant le `p.` du nombre de pages par exemple).
-- Citations en appel de note.
+- Les citations dans le texte seront rendues en appel de note.
 - Respect de l’année de publication initiale (entre crochets `[aaaa]`). Dans Zotero, il s’agit d’entrer la `date` de publication comme suit : `1995 [1976]`.
+- Volumes/tomes : indiquer le **volume** en chiffres réguliers (par ex. `1`, `2` ou `12`), le style fera le rendu en chiffres romains et ajoutera le préfixe `vol.`. S’il faut plutôt indiquer un **tome**, ajouter manuellement le préfixe `t.` et écrire le numéro du tome chiffres romains, par ex. `t. III`.
 
 ## Tests
 
