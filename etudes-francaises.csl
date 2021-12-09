@@ -51,7 +51,7 @@
   <macro name="volume">
     <choose>
       <if is-numeric="volume">
-        <group delimiter=" ">
+        <group delimiter="&#xA0;">
           <label variable="volume" form="short" />
           <number variable="volume" form="roman" text-case="uppercase" />
         </group>
@@ -64,7 +64,7 @@
     </choose>
   </macro>
   <macro name="issue">
-    <group delimiter=" " prefix=" ">
+    <group delimiter="&#xA0;" prefix=" ">
       <label variable="issue" form="short" />
       <text variable="issue" />
     </group>
