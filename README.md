@@ -10,7 +10,7 @@ Ce style est également utilisé par les [Presses de l’Université de Montréa
 - Fernand Dumont, <span>«&nbsp;La sociologie comme critique de la littérature&nbsp;»</span>, <em>Recherches sociographiques</em>, vol. V, nᵒˢ 1-2, janvier-août 1964.
 - Robert Escarpit, <span>«&nbsp;Histoire de l’histoire de la littérature&nbsp;»</span>, dans Raymond Queneau (dir.), <em>Histoire des littératures</em>, t. III, Paris, Gallimard, <span>«&nbsp;Encyclopédie de la Pléiade&nbsp;»</span>, 1978 [1958], p.&nbsp;1747‑1813.
 - Gérard Genette, <em>Palimpsestes. La littérature au second degré</em>, Paris, Seuil, <span>«&nbsp;Points&nbsp;»</span>, 1992 [1982], 583&nbsp;p.
-- Hubert Reeves, <em>Patience dans l’azur. L’évolution comique</em>, Paris, Seuil, <span>«&nbsp;Points sciences&nbsp;»</span>, 1988 [1981].
+- Hubert Reeves, <em>Patience dans l’azur. L’évolution comique</em>, Paris, Seuil, <span>«&nbsp;Points sciences&nbsp;»</span>, 1988 [1981], 352&nbsp;p.
 
 ## Notes
 
