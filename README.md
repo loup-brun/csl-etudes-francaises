@@ -1,7 +1,7 @@
 # CSL - Études françaises
 
 Style bibliographique pour [Études françaises](http://revue-etudesfrancaises.umontreal.ca/).
-Ce style est également utilisé par les Presses de l’Université de Montréal.
+Ce style est également utilisé par les [Presses de l’Université de Montréal (PUM)](https://pum.umontreal.ca/).
 
 ## Exemple
 
