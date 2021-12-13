@@ -97,7 +97,7 @@
   <macro name="URL">
     <group delimiter=" " >
       <choose>
-        <if xml:lang="fr">
+        <if locale="fr">
           <text term="online" suffix="&#xA0;:"/>
         </if>
         <else>
