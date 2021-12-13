@@ -121,9 +121,18 @@
     <text term="page" form="short" prefix="&#xA0;"/>
   </macro>
   <macro name="author">
-    <names variable="author" delimiter=", ">
-      <name font-variant="normal" sort-separator=" "/>
-    </names>
+    <choose>
+      <if variable="author">
+        <names variable="author" delimiter=", ">
+          <name font-variant="normal" sort-separator=" "/>
+        </names>
+      </if>
+      <else-if variable="editor">
+        <names variable="editor">
+          <name font-variant="normal" sort-separator=" "/>
+        </names>
+      </else-if>
+    </choose>
   </macro>
   <macro name="editor-translator">
     <names variable="translator" delimiter=", ">
