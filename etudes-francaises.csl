@@ -27,8 +27,8 @@
       <term name="collection-number" form="short">nº</term>
       <term name="in">dans</term>
       <term name="paragraph" form="symbol">§</term>
-      <term name="accessed">page consultée le</term>
-      <term name="online" suffix=" :">disponible en ligne</term>
+      <term name="accessed" suffix="">page consultée le</term>
+      <term name="online">disponible en ligne&#xA0;:</term>
       <term name="volume" form="short">vol.</term>
       <term name="loc-cit" form="short">loc. cit.</term>
       <term name="op-cit" form="short">op. cit.</term>
@@ -43,7 +43,7 @@
       <term name="close-quote">”</term>
       <term name="open-inner-quote">‘</term>
       <term name="close-inner-quote">’</term>
-      <term name="online">available online</term>
+      <term name="online">available online:</term>
       <term name="loc-cit" form="short">loc. cit.</term>
       <term name="op-cit" form="short">op. cit.</term>
     </terms>
@@ -96,14 +96,7 @@
   </macro>
   <macro name="URL">
     <group delimiter=" " >
-      <choose>
-        <if locale="fr">
-          <text term="online" suffix="&#xA0;:"/>
-        </if>
-        <else>
-          <text term="online" suffix=":"/>
-        </else>
-      </choose>
+      <text term="online"/>
       <text variable="URL"/>
       <text macro="access" prefix="(" suffix=")"/>
     </group>
