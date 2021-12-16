@@ -135,8 +135,8 @@
     </names>
   </macro>
   <macro name="editor">
-    <names variable="editor" font-variant="normal" delimiter=", " delimiter-precedes-last="never">
-      <name font-variant="normal" sort-separator=" " form="long"/>
+    <names variable="editor" font-variant="normal" delimiter=", ">
+      <name font-variant="normal" sort-separator=" " form="long" and="text" delimiter-precedes-last="never"/>
       <label form="short" text-case="lowercase" font-variant="normal" prefix=" (" suffix=")"/>
       <substitute>
         <text macro="container-author"/>
@@ -145,7 +145,7 @@
   </macro>
   <macro name="container-author">
     <names variable="container-author" delimiter=", ">
-      <name font-variant="normal" sort-separator=" "/>
+      <name font-variant="normal" sort-separator=" " and="text" delimiter-precedes-last="never"/>
       <et-al font-style="italic" font-variant="normal"/>
     </names>
   </macro>
