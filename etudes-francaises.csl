@@ -26,6 +26,7 @@
       <term name="translator" form="short">trad. de</term>
       <term name="collection-number" form="short">nº</term>
       <term name="in">dans</term>
+      <term name="and">et</term>
       <term name="paragraph" form="symbol">§</term>
       <term name="accessed" suffix="">page consultée le</term>
       <term name="online">disponible en ligne&#xA0;:</term>
@@ -53,7 +54,7 @@
       <if is-numeric="volume">
         <group delimiter="&#xA0;">
           <label variable="volume" form="short" />
-          <number variable="volume" form="roman" text-case="uppercase" />
+          <number variable="volume" />
         </group>
       </if>
       <else>
@@ -114,30 +115,27 @@
     <text term="page" form="short" prefix="&#xA0;"/>
   </macro>
   <macro name="author">
-    <choose>
-      <if variable="author">
-        <names variable="author" delimiter=", ">
-          <name font-variant="normal" sort-separator=" "/>
-        </names>
-      </if>
-      <else-if variable="editor">
+    <names variable="author" delimiter=", ">
+      <name font-variant="normal" sort-separator=" " and="text" delimiter-precedes-last="never"/>
+      <substitute>
         <names variable="editor">
-          <name font-variant="normal" sort-separator=" "/>
+          <name font-variant="normal" sort-separator=" " and="text"/>
         </names>
-      </else-if>
-    </choose>
+        <text macro="title" />
+      </substitute>
+    </names>
   </macro>
   <macro name="editor-translator">
     <names variable="translator" delimiter=", ">
       <label form="short" suffix=" " />
-      <name sort-separator=" " delimiter=", "/>
+      <name sort-separator=" " delimiter=", " and="text" delimiter-precedes-last="never"/>
       <substitute>
         <text macro="editor"/>
       </substitute>
     </names>
   </macro>
   <macro name="editor">
-    <names variable="editor" font-variant="normal" delimiter=", ">
+    <names variable="editor" font-variant="normal" delimiter=", " delimiter-precedes-last="never">
       <name font-variant="normal" sort-separator=" " form="long"/>
       <label form="short" text-case="lowercase" font-variant="normal" prefix=" (" suffix=")"/>
       <substitute>
