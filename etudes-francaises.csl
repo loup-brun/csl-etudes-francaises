@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note" demote-non-dropping-particle="sort-only" page-range-format="expanded">
-  <info>
-    <title>Études françaises (Français)</title>
+  <info> <title>Études françaises (Français)</title>
     <title-short>Études françaises</title-short>
     <id>http://www.zotero.org/styles/etudes-francaises</id>
     <link href="http://www.zotero.org/styles/etudes-francaises" rel="self"/>
@@ -368,8 +367,15 @@
           </group>
         </else-if>
         <else>
-          <text macro="full-note"/>
-       </else>
+          <group delimiter=", ">
+            <text macro="full-note"/>
+            <choose>
+              <if variable="locator">
+                <text macro="pages-citation" />
+              </if>
+            </choose>
+          </group>
+        </else>
      </choose>
     </layout>
   </citation>
