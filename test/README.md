@@ -4,7 +4,7 @@
 
 - [pandoc](http://pandoc.org)
 - un terminal (interface en ligne de commande)
-- (optionnel) `entr` pour effectuer les tests en continu
+- [`entr`](https://www.systutorials.com/docs/linux/man/1-entr/) (optionnel) pour effectuer les tests en continu
 
 ## Pour tester
 
