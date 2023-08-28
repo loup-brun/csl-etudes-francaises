@@ -16,7 +16,7 @@
     <issn>0014-2085</issn>
     <issn>1492-1405</issn>
     <summary>Références pour le style Études françaises. Aussi utilisé par les Presses de l’Université de Montréal (PUM).</summary>
-    <updated>2023-05-16T15:22:00-05:00</updated>
+    <updated>2023-08-28T19:29:00-04:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="fr">
@@ -28,9 +28,13 @@
       <term name="and">et</term>
       <term name="paragraph" form="symbol">§</term>
       <term name="accessed" suffix="">page consultée le</term>
-      <term name="online">disponible en ligne&#xA0;:</term>
+      <term name="open-quote">«&#8239;</term>
+      <term name="close-quote">&#8239;»</term>
+      <term name="open-inner-quote">”</term>
+      <term name="close-inner-quote">”</term>
+      <term name="online">disponible en ligne&#8239;:</term>
       <term name="volume" form="short">vol.</term>
-      <term name="loc-cit" form="short">loc. cit.</term>
+      <term name="loc-cit" form="short">loc.cit.</term>
       <term name="op-cit" form="short">op. cit.</term>
     </terms>
   </locale>
@@ -76,10 +80,8 @@
       <text macro="volume"/>
       <text macro="publisher"/>
       <text macro="collection"/>
-      <group delimiter=" ">
-        <text macro="year-date"/>
-        <text macro="edition"/>
-      </group>
+      <text macro="year-date"/>
+      <text macro="edition"/>
       <text macro="number-of-pages"/>
     </group>
   </macro>
@@ -212,7 +214,7 @@
     </group>
   </macro>
   <macro name="pages-citation">
-    <label plural="never" suffix=" " variable="locator" form="short"/>
+    <label plural="never" suffix="&#xA0;" variable="locator" form="short"/>
     <text variable="locator" form="short"/>
   </macro>
   <macro name="full-note">
