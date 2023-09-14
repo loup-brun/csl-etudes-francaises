@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note" demote-non-dropping-particle="sort-only" page-range-format="expanded">
-  <info> <title>Études françaises (Français)</title>
-    <title-short>Études françaises</title-short>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note" demote-non-dropping-particle="sort-only" page-range-format="expanded" default-locale="fr-CA">
+  <info>
+    <title>Études françaises (Français)</title>
+    <title-short>ETFRA</title-short>
     <id>http://www.zotero.org/styles/etudes-francaises</id>
     <link href="http://www.zotero.org/styles/etudes-francaises" rel="self"/>
-    <link href="http://revue-etudesfrancaises.umontreal.ca/wp-content/uploads/2021/06/protocole-de-redaction.pdf" rel="documentation"/>
+    <link href="https://revue-etudesfrancaises.umontreal.ca/wp-content/uploads/2023/02/protocole-de-redaction.pdf" rel="documentation"/>
     <author>
       <name>Louis-Olivier Brassard</name>
       <email>louis-olivier.brassard@umontreal.ca</email>
-      <uri>https://www.loupbrun.ca</uri>
+      <uri>https://https://www.loupbrun.ca</uri>
     </author>
     <category citation-format="note"/>
     <category field="literature"/>
@@ -16,8 +17,9 @@
     <issn>0014-2085</issn>
     <issn>1492-1405</issn>
     <summary>Références pour le style Études françaises. Aussi utilisé par les Presses de l’Université de Montréal (PUM).</summary>
-    <updated>2023-08-28T19:29:00-04:00</updated>
+    <updated>2023-09-14T15:45:00-04:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+    <link href="http://www.zotero.org/styles/bulletin-de-correspondance-hellenique" rel="template"/>
   </info>
   <locale xml:lang="fr">
     <terms>
@@ -27,7 +29,7 @@
       <term name="in">dans</term>
       <term name="and">et</term>
       <term name="paragraph" form="symbol">§</term>
-      <term name="accessed" suffix="">page consultée le</term>
+      <term name="accessed">page consultée le</term>
       <term name="open-quote">«&#8239;</term>
       <term name="close-quote">&#8239;»</term>
       <term name="open-inner-quote">”</term>
@@ -184,22 +186,28 @@
     </group>
   </macro>
   <macro name="year-date">
-    <choose>
-      <if variable="issued">
-        <date variable="issued">
-          <date-part name="year"/>
+    <group delimiter=" ">
+      <choose>
+        <if variable="issued">
+          <date variable="issued">
+            <date-part name="year"/>
+          </date>
+        </if>
+        <else>
+          <text term="no date" form="short"/>
+        </else>
+      </choose>
+      <choose>
+        <if variable="original-date">
+        <date variable="original-date" prefix="[" suffix="]">
+          <date-part name="year" />
         </date>
-      </if>
-      <else>
-        <text term="no date" form="short"/>
-      </else>
-    </choose>
+        </if>
+      </choose>
+    </group>
   </macro>
   <macro name="edition">
     <group delimiter=", ">
-      <date variable="original-date">
-        <date-part name="year" prefix="[" suffix="]"/>
-      </date>
       <choose>
         <if is-numeric="edition">
           <group delimiter=" ">
@@ -240,7 +248,7 @@
           <group delimiter=", ">
             <group delimiter=" ">
               <text variable="container-title" font-style="italic" text-case="title" form="short"/>
-              <text variable="volume" form="roman"/>
+              <number variable="volume" form="roman"/>
             </group>
             <text macro="year-date"/>
             <group delimiter=" ">
@@ -248,7 +256,6 @@
               <text variable="page"/>
             </group>
             <group delimiter=" ">
-              <text term="sub verbo" form="short" font-style="italic"/>
               <text macro="title" quotes="true"/>
             </group>
           </group>

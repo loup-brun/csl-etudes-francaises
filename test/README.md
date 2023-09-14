@@ -13,7 +13,7 @@
 bash test.sh
 ```
 
-Avec entr :
+Avec entr :
 
 ```bash
 ls {../*.csl,*} | entr bash test.sh
