@@ -18,5 +18,5 @@ Pellentesque nisl purus, mattis non sapien vel, interdum consectetur urna. Phase
 Vestibulum et congue quam. Sed rutrum vehicula tortor id dignissim. Nunc in nisi libero. Nunc at consequat enim. Nullam rutrum convallis enim, eget interdum tellus cursus sed. Mauris convallis accumsan odio, pulvinar lobortis ante. Ut cursus non sem eget mattis. Etiam quis eros urna. In efficitur ante at lacus vehicula, vitae feugiat leo tincidunt. Phasellus facilisis elementum interdum. Nulla pharetra odio sit amet felis hendrerit congue. Integer vel luctus elit, at fringilla mi. Sed eu congue urna. Vestibulum vulputate lorem posuere vulputate venenatis. Curabitur venenatis, velit non maximus blandit, ex quam commodo orci, ac porta tortor nisl id sapien. Sed mattis libero eget luctus suscipit.
 
 ## Bibliographie
-::: {#refs}
+::: {#refs .hanging-indent}
 :::

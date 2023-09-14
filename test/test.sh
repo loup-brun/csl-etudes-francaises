@@ -7,6 +7,7 @@ echo "[$(date)] - Conversion du fichier \"$IN_FILE\"…"
 
 pandoc \
   $IN_FILE \
+  --standalone \
   --citeproc \
   --bibliography=$BIB_FILE \
   --csl=../etudes-francaises.csl \
