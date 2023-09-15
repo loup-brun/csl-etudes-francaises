@@ -24,7 +24,7 @@
   <locale xml:lang="fr">
     <terms>
       <term name="editor" form="short">dir.</term>
-      <term name="translator" form="short">trad. de</term>
+      <term name="translator" form="short">trad. par</term>
       <term name="collection-number" form="short">nº</term>
       <term name="in">dans</term>
       <term name="and">et</term>
@@ -317,15 +317,15 @@
             <text macro="title" quotes="true"/>
             <choose>
               <if variable="editor container-author" match="any">
-                <group>
-                  <text term="in" suffix=" "/>
-                  <text macro="editor" suffix=", "/>
+                <group delimiter=" ">
+                  <text term="in"/>
+                  <text macro="editor" suffix=","/>
                   <text variable="container-title" font-style="italic" text-case="title"/>
                 </group>
               </if>
               <else>
-                <group>
-                  <text term="in" suffix=" "/>
+                <group delimiter=" ">
+                  <text term="in"/>
                   <text variable="container-title" font-style="italic" text-case="title"/>
                 </group>
               </else>
