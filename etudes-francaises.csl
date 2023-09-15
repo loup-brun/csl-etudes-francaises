@@ -102,9 +102,24 @@
   </macro>
   <macro name="URL">
     <group delimiter=" ">
+      <choose>
+        <if variable="DOI">
+          <text macro="DOI"/>
+        </if>
+        <else-if variable="URL">
+          <text term="online"/>
+          <group delimiter="&#8239;; ">
+            <text variable="URL"/>
+            <text macro="access"/>
+          </group>
+        </else-if>
+      </choose>
+    </group>
+  </macro>
+  <macro name="DOI">
+    <group delimiter=" ">
       <text term="online"/>
-      <text variable="URL"/>
-      <text macro="access" prefix="(" suffix=")"/>
+      <text variable="DOI"/>
     </group>
   </macro>
   <macro name="archive">
