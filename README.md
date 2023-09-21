@@ -41,12 +41,15 @@ Ce style est également utilisé par les [Presses de l’Université de Montréa
 
 ### Appels de note
 
+Supposons un texte comportant des citations et appels de note précédentes.
+Le style CSL se chargera d'inclure les _op. cit._, _loc. cit._ et autres qui s'imposent.
+
 <ol start="11">
+<li>...</li>
 <li><p>Renée Balibar, <em>op. cit.</em>, p.&nbsp;8‑10.</p></li>
 <li><p><em>Ibid.</em>, p.&nbsp;113.</p></li>
-<li><p>Fernand Dumont, <em>loc.cit.</em></p></li>
+<li><p>Fernand Dumont, <em>loc. cit.</em></p></li>
 <li><p>Renée Balibar, <em>op. cit.</em>, p.&nbsp;12.</p></li>
-<li><p>Patrick Berthier.</p></li>
 </ol>
 
 ## Notes
