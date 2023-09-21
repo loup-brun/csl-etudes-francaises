@@ -5,20 +5,53 @@ Ce style est également utilisé par les [Presses de l’Université de Montréa
 
 ## Exemples
 
-- Renée Balibar, <em>Histoire littérature française</em>, Paris, Presses Universitaires France, <span>«&nbsp;Que sais-je?&nbsp;»</span> nº&nbsp;2601, 1991, 128&nbsp;p.
-- Roland Barthes, <span>«&nbsp;Réflexions sur un manuel&nbsp;»</span>, dans Serge Doubrovski, Tzvetan Todorov (dir.), <em>Essais de critique génétique</em>, Paris, Flammarion, 1979, p.&nbsp;227‑236.
-- Fernand Dumont, <span>«&nbsp;La sociologie comme critique de la littérature&nbsp;»</span>, <em>Recherches sociographiques</em>, vol.&nbsp;V, nᵒˢ&nbsp;1-2, janvier-août 1964.
-- Robert Escarpit, <span>«&nbsp;Histoire de l’histoire de la littérature&nbsp;»</span>, dans Raymond Queneau (dir.), <em>Histoire des littératures</em>, t. III, Paris, Gallimard, <span>«&nbsp;Encyclopédie de la Pléiade&nbsp;»</span>, 1978 [1958], p.&nbsp;1747‑1813.
-- Gérard Genette, <em>Palimpsestes. La littérature au second degré</em>, Paris, Seuil, <span>«&nbsp;Points&nbsp;»</span>, 1992 [1982], 583&nbsp;p.
-- Hubert Reeves, <em>Patience dans l’azur. L’évolution comique</em>, Paris, Seuil, <span>«&nbsp;Points sciences&nbsp;»</span>, 1988 [1981], 352&nbsp;p.
+### Livres
+- Renée Balibar, <em>Histoire littérature française</em>, Paris, Presses Universitaires France, <span>« Que sais-je ? »</span> nº&nbsp;2601, 1993 [1991], p.&nbsp;113.
+- Gérard Genette, <em>Palimpsestes. La littérature au second degré</em>, Paris, Seuil, <span>« Points »</span>, 1992 [1982], p.&nbsp;113.
+- Gérard Genette, <em>Palimpsestes. La littérature au second degré</em>, Paris, Seuil, 
+
+### Ouvrages traduits
+
+- Giorgio Agamben, <em>Qu’est-ce que le contemporain ?</em>, trad. par Maxime Rovere, Paris, Payot &amp; Rivages, 2008.
+
+**Note** : il n'est pas possible d'intégrer automatiquement la langue d'origine, par ex. « trad. de l'italien par ».
+
+- Lawrence W. Levine, <em>Culture d’en haut, culture d’en bas : l’émergence des hiérarchies culturelles aux États-Unis</em>, trad. par Marianne Woollven et Olivier Vanhée, Paris, la Découverte, <span>« Textes à l’appui »</span>, 2010. [<i>Highbrow / Lowbrow. The Emergence of Cultural Hierarchy in America, 1988</i>]
+
+**Note** : l'information entre crochets doit être ajouté manuellement, à la fin de la référence, par ex.: `[@Levine2010, p. 113 \[<i>Highbrow / Lowbrow. The Emergence of Cultural Hierarchy in America, 1988</i>\]]`.
+
+### Articles
+
+- Claire Asselin et Anne McLaughlin, <span>« Patois ou français : la langue de la Nouvelle-France au 17e siècle »</span>, <em>Langage et société</em>, vol.&nbsp;XVII, nᵒ&nbsp;1, 1981, p.&nbsp;3‑57, disponible en ligne : <a href="https://doi.org/10.3406/lsoc.1981.1327" role="doc-biblioref">10.3406/lsoc.1981.1327</a>.
+- Fernand Dumont, <span>« La sociologie comme critique de la littérature »</span>, <em>Recherches sociographiques</em>, vol.&nbsp;V, nᵒˢ&nbsp;1-2, janvier-août 1964, p.&nbsp;232.
+- Roland Barthes, <span>« Réflexions sur un manuel »</span>, dans Serge Doubrovski et Tzvetan Todorov (dir.), <em>Essais de critique génétique</em>, Paris, Plon, 1971, p.&nbsp;170‑177.
+
+### Chapitre d'un livre
+
+- Robert Escarpit, <span>« Histoire de l’histoire de la littérature »</span>, dans Raymond Queneau (dir.), <em>Histoire des littératures</em>, t. III, Paris, Gallimard, <span>« Encyclopédie de la Pléiade »</span>, 1978 [1958], p.&nbsp;1747‑1813.
+
+### Thèses et mémoires
+
+- Louis-Olivier Brassard, <em>Herméneutiques du code dans les écritures numériques d’Abrüpt. Perspectives critiques pour un champ littéraire en mutation</em>, mémoire de maîtrise, Université de
+Montréal, 2023, 1&nbsp;vol., 176&nbsp;pages.
+- Patrick Berthier, <em>La presse littéraire et dramatique au début de la monarchie de Juillet (1830-1836)</em>, thèse de doctorat, Paris, Université Paris IV, 1995, 4&nbsp;vol., XVIII-2187&nbsp;pages.
 
 ## Notes
 
 - **Micro-typo** : respect de règles de micro-typographie (espaces insécables en français, avant le `p.` du nombre de pages par exemple).
 - **Appel de note** : les citations dans le texte seront rendues en appel de note.
-- **Année** : respect de l’année de publication initiale (entre crochets `[aaaa]`). Dans Zotero, il s’agit d’entrer la variable `original-date` dans la section `Extra`, comme suit : `orignal-date: 1995`. Le style se chargera d'ajouter la date originale entre crochets.
+- **Année** : respect de l’année de publication initiale (entre crochets `[aaaa]`). Dans Zotero, il s’agit d’entrer la variable `original-date` dans la section « Extra », comme suit : `orignal-date: 1995`. Le style se chargera d'ajouter la date originale entre crochets.
 - **Volumes/tomes** : indiquer le **volume** en chiffres réguliers (par ex. `1`, `2` ou `12`), le style fera le rendu en chiffres romains et ajoutera le préfixe `vol.`. S’il faut plutôt indiquer un **tome**, ajouter manuellement le préfixe `t.` et écrire le numéro du tome chiffres romains, par ex. `t. III`.
+- **Nombre de volumes** : Zotero n'offre pas un champ par défaut pour le nombre de volumes, il faut donc inclure cette information dans la section « Extra » de Zotero, `number-of-volumes: n` (où `n` correspond au nombre de volumes).
 - ***Ibid.* / *op. cit.* / *loc. cit.*** : insertion automatique du `ibid.` lorsque la référence qui précède immédiatement est identique ; `op. cit.` (monographie) ou `loc. cit.` (article, chapitre) lorsque l’ouvrage est déjà cité, mais pas immédiatement avant.
+- **URL / DOI** : si le DOI est renseigné (pour les articles de périodique), il sera utilisé à la place de l'URL. Ces deux champs peuvent donc demeurer respectivement remplis dans Zotero. Toutefois, la mention « doi » n'apparaîtra pas (c'est une limitation de vocabulaire CSL); on lira donc, comme pour une URL, « disponible en ligne : », sans la mention « doi ».
+
+### Ouvrages appartenant à une série
+
+Avec le style CSL seul, il n'est pas possible de reproduire intégralement le style de référence pour un ouvrage appartenant à une série.
+Il est néanmoins possible de s'en rapprocher.
+On procèdera ainsi :
+`Charles Baudelaire, <cite>Les Fleurs du mal</cite> (1857) dans @Pichois1975.`
 
 ## Tests
 
