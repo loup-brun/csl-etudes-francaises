@@ -14,11 +14,15 @@ Ce style est également utilisé par les [Presses de l’Université de Montréa
 
 - Giorgio Agamben, <em>Qu’est-ce que le contemporain ?</em>, trad. par Maxime Rovere, Paris, Payot &amp; Rivages, 2008.
 
-**Note** : il n'est pas possible d'intégrer automatiquement la langue d'origine, par ex. « trad. de l'italien par ».
-
 - Lawrence W. Levine, <em>Culture d’en haut, culture d’en bas : l’émergence des hiérarchies culturelles aux États-Unis</em>, trad. par Marianne Woollven et Olivier Vanhée, Paris, la Découverte, <span>« Textes à l’appui »</span>, 2010. [<i>Highbrow / Lowbrow. The Emergence of Cultural Hierarchy in America, 1988</i>]
 
-**Note** : l'information entre crochets doit être ajouté manuellement, à la fin de la référence, par ex.: `[@Levine2010, p. 113 \[<i>Highbrow / Lowbrow. The Emergence of Cultural Hierarchy in America, 1988</i>\]]`.
+<small>**Note** : il n'est pas possible d'intégrer automatiquement la langue d'origine, par ex. « trad. de l'italien par ».</small>
+
+<small>**Note** : l'information entre crochets doit être ajouté manuellement, à la fin de la référence, par exemple :
+
+```markdown
+[@Levine2010, p. 113 \[<i>Highbrow / Lowbrow. The Emergence of Cultural Hierarchy in America, 1988</i>\]]
+```
 
 ### Articles
 
@@ -32,9 +36,18 @@ Ce style est également utilisé par les [Presses de l’Université de Montréa
 
 ### Thèses et mémoires
 
-- Louis-Olivier Brassard, <em>Herméneutiques du code dans les écritures numériques d’Abrüpt. Perspectives critiques pour un champ littéraire en mutation</em>, mémoire de maîtrise, Université de
-Montréal, 2023, 1&nbsp;vol., 176&nbsp;pages.
+- Julia Boulianne, <em>Une poétique de la gaieté dans les Mémoires de la vie de Henriette-Sylvie de Molière de Madame de Villedieu</em>, Université de Montréal, 2023, 160&nbsp;pages.
 - Patrick Berthier, <em>La presse littéraire et dramatique au début de la monarchie de Juillet (1830-1836)</em>, thèse de doctorat, Paris, Université Paris IV, 1995, 4&nbsp;vol., XVIII-2187&nbsp;pages.
+
+### Appels de note
+
+<ol start="11">
+<li><p>Renée Balibar, <em>op. cit.</em>, p.&nbsp;8‑10.</p></li>
+<li><p><em>Ibid.</em>, p.&nbsp;113.</p></li>
+<li><p>Fernand Dumont, <em>loc.cit.</em></p></li>
+<li><p>Renée Balibar, <em>op. cit.</em>, p.&nbsp;12.</p></li>
+<li><p>Patrick Berthier.</p></li>
+</ol>
 
 ## Notes
 

@@ -36,7 +36,7 @@ nocite: |
 
 ### Pour une thèse de doctorat ou mémoire de maîtrise
 
-* Louis-Olivier Brassard [@Brassard2023]
+* Julia Boulianne [@Boulianne2023]
 * Patrick Berthier [@Berthier1995]  
   <small>(Note : pour le nombre de volumes, il faut renseigner `number-of-volumes: n` dans la section « Extra » dans la fiche de référence de Zotero.)</small>
 
