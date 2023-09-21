@@ -47,5 +47,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ante enim, pe
 Nunc nunc ipsum, aliquet[@Berthier1995] non egestas sed, aliquet nec augue. Etiam augue ante, malesuada a mi a, lobortis rutrum mi. Pellentesque id cursus orci. Pellentesque commodo lorem ante, id facilisis nulla semper vel. Sed nec odio rutrum, volutpat massa quis, dignissim neque. Curabitur non ante rutrum, sollicitudin tortor sed, efficitur nunc. Quisque nec justo vel orci scelerisque porttitor. Sed sodales velit quis suscipit aliquam.
 
 ## Bibliographie
+
 ::: {#refs .hanging-indent  }
 :::
+
+## Notes
+
+<!-- Les notes seront insérées ici automatiquement -->
