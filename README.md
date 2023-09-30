@@ -8,7 +8,6 @@ Cette convention bibliographique style est également utilisée par les [Presses
 ### Livres
 - Renée Balibar, <em>Histoire littérature française</em>, Paris, Presses Universitaires France, <span>« Que sais-je ? »</span> nº&nbsp;2601, 1993 [1991], p.&nbsp;113.
 - Gérard Genette, <em>Palimpsestes. La littérature au second degré</em>, Paris, Seuil, <span>« Points »</span>, 1992 [1982], p.&nbsp;113.
-- Gérard Genette, <em>Palimpsestes. La littérature au second degré</em>, Paris, Seuil, 
 
 ### Ouvrages traduits
 
