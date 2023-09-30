@@ -16,13 +16,13 @@ Ce style est également utilisé par les [Presses de l’Université de Montréa
 
 - Lawrence W. Levine, <em>Culture d’en haut, culture d’en bas : l’émergence des hiérarchies culturelles aux États-Unis</em>, trad. par Marianne Woollven et Olivier Vanhée, Paris, la Découverte, <span>« Textes à l’appui »</span>, 2010. [<i>Highbrow / Lowbrow. The Emergence of Cultural Hierarchy in America, 1988</i>]
 
-<small>**Note** : il n'est pas possible d'intégrer automatiquement la langue d'origine, par ex. « trad. de l'italien par ».</small>
+**Notes** :
 
-<small>**Note** : l'information entre crochets doit être ajouté manuellement, à la fin de la référence, par exemple :</small>
-
-```markdown
-[@Levine2010, p. 113 \[<i>Highbrow / Lowbrow. The Emergence of Cultural Hierarchy in America, 1988</i>\]]
-```
+- Il n'est pas possible d'intégrer automatiquement la langue d'origine, par ex. « trad. de l'italien par ».
+- L'information entre crochets doit être ajouté manuellement, à la fin de la référence, par exemple :
+  ```markdown
+  [@Levine2010, p. 113 \[<i>Highbrow / Lowbrow. The Emergence of Cultural Hierarchy in America, 1988</i>\]]
+  ```
 
 ### Articles
 
