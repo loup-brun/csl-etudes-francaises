@@ -62,16 +62,11 @@ Le style CSL se chargera d'inclure les _op. cit._, _loc. cit._ et autres qui s'i
 - ***Ibid.* / *op. cit.* / *loc. cit.*** : insertion automatique du `ibid.` lorsque la référence qui précède immédiatement est identique ; `op. cit.` (monographie) ou `loc. cit.` (article, chapitre) lorsque l’ouvrage est déjà cité, mais pas immédiatement avant.
 - **Articles ou monographies d’un même auteur** : il n’est pour l’instant pas possible d’activer l’affichage conditionnel du titre dans le cas de plusieurs articles ou monographies d’un même auteur – du moins, pas avant la locution *op. cit.* ou *loc. cit*. 
 - **URL / DOI** : si le DOI est renseigné (pour les articles de périodique), il sera utilisé à la place de l'URL. Ces deux champs peuvent donc demeurer respectivement remplis dans Zotero. Toutefois, la mention « doi » n'apparaîtra pas (c'est une limitation de vocabulaire CSL); on lira donc, comme pour une URL, « disponible en ligne : », sans la mention « doi ».
-
-### Ouvrages appartenant à une série
-
-Avec le style CSL seul, il n'est pas possible de reproduire intégralement le style de référence pour un ouvrage appartenant à une série.
-Il est néanmoins possible de s'en rapprocher.
+- **Ouvrages appartenant à une série** : vec le style CSL seul, il n'est pas possible de reproduire intégralement le style de référence pour un ouvrage appartenant à une série. Il est néanmoins possible de s'en rapprocher.
 On pourrait procéder ainsi :
-
-```txt
-Charles Baudelaire, <cite>Les Fleurs du mal</cite> (1857) dans @Pichois1975.
-```
+  ```txt
+  Charles Baudelaire, <cite>Les Fleurs du mal</cite> (1857) dans @Pichois1975.
+  ```
 
 ## Tests
 
