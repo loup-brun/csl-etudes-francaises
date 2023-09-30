@@ -19,7 +19,7 @@ Cette convention bibliographique style est également utilisée par les [Presses
 **Notes** :
 
 - Il n'est pas possible d'intégrer automatiquement la langue d'origine, par ex. « trad. de l'italien par ».
-- L'information entre crochets doit être ajouté manuellement, à la fin de la référence, par exemple :
+- L'information entre crochets, lorsqu’on souhaite l’inclure, peut être ajoutée manuellement, à la fin de la référence, par exemple :
   ```markdown
   [@Levine2010, p. 113 \[<i>Highbrow / Lowbrow. The Emergence of Cultural Hierarchy in America, 1988</i>\]]
   ```
@@ -60,14 +60,18 @@ Le style CSL se chargera d'inclure les _op. cit._, _loc. cit._ et autres qui s'i
 - **Volumes/tomes** : indiquer le **volume** en chiffres romains (par ex. `1`, `2` ou `12`), le style fera le rendu en chiffres romains et ajoutera le préfixe `vol.`. S’il faut plutôt indiquer un **tome**, ajouter manuellement le préfixe `t.` et écrire le numéro du tome chiffres romains, par ex. `t. III`.
 - **Nombre de volumes** : Zotero n'offre pas un champ par défaut pour le nombre de volumes, il faut donc inclure cette information dans la section « Extra » de Zotero, `number-of-volumes: n` (où `n` correspond au nombre de volumes).
 - ***Ibid.* / *op. cit.* / *loc. cit.*** : insertion automatique du `ibid.` lorsque la référence qui précède immédiatement est identique ; `op. cit.` (monographie) ou `loc. cit.` (article, chapitre) lorsque l’ouvrage est déjà cité, mais pas immédiatement avant.
+- **Articles ou monographies d’un même auteur** : il n’est pour l’instant pas possible d’activer l’affichage conditionnel du titre dans le cas de plusieurs articles ou monographies d’un même auteur – du moins, pas avant la locution *op. cit.* ou *loc. cit*. 
 - **URL / DOI** : si le DOI est renseigné (pour les articles de périodique), il sera utilisé à la place de l'URL. Ces deux champs peuvent donc demeurer respectivement remplis dans Zotero. Toutefois, la mention « doi » n'apparaîtra pas (c'est une limitation de vocabulaire CSL); on lira donc, comme pour une URL, « disponible en ligne : », sans la mention « doi ».
 
 ### Ouvrages appartenant à une série
 
 Avec le style CSL seul, il n'est pas possible de reproduire intégralement le style de référence pour un ouvrage appartenant à une série.
 Il est néanmoins possible de s'en rapprocher.
-On procèdera ainsi :
-`Charles Baudelaire, <cite>Les Fleurs du mal</cite> (1857) dans @Pichois1975.`
+On pourrait procéder ainsi :
+
+```txt
+Charles Baudelaire, <cite>Les Fleurs du mal</cite> (1857) dans @Pichois1975.
+```
 
 ## Tests
 
