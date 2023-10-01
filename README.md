@@ -1,7 +1,7 @@
 # CSL - Études françaises
 
 Style bibliographique pour [Études françaises](http://revue-etudesfrancaises.umontreal.ca/), d’après le [protocole de rédaction](https://revue-etudesfrancaises.umontreal.ca/wp-content/uploads/2023/02/protocole-de-redaction.pdf) de la revue.
-Cette convention bibliographique style est également utilisée par les [Presses de l’Université de Montréal (PUM)](https://pum.umontreal.ca/).
+Cette convention bibliographique est également utilisée par les [Presses de l’Université de Montréal (PUM)](https://pum.umontreal.ca/).
 
 ## Exemples
 
