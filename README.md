@@ -35,8 +35,8 @@ Cette convention bibliographique style est également utilisée par les [Presses
 
 ### Thèses et mémoires
 
-- Julia Boulianne, <em>Une poétique de la gaieté dans les Mémoires de la vie de Henriette-Sylvie de Molière de Madame de Villedieu</em>, mémoire de maîtrise, Université de Montréal, 2023, 160&nbsp;pages.
-- Patrick Berthier, <em>La presse littéraire et dramatique au début de la monarchie de Juillet (1830-1836)</em>, thèse de doctorat, Paris, Université Paris IV, 1995, 4&nbsp;vol., XVIII-2187&nbsp;pages.
+- Julia Boulianne, <em>Une poétique de la gaieté dans les Mémoires de la vie de Henriette-Sylvie de Molière de Madame de Villedieu</em>, mémoire de maîtrise, Université de Montréal, 2023, 160&nbsp;p.
+- Patrick Berthier, <em>La presse littéraire et dramatique au début de la monarchie de Juillet (1830-1836)</em>, thèse de doctorat, Paris, Université Paris IV, 1995, 4&nbsp;vol., XVIII-2187&nbsp;p.
 
 ### Appels de note
 
