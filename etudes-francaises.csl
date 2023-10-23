@@ -41,22 +41,6 @@
       <term name="op-cit" form="short">op. cit.</term>
     </terms>
   </locale>
-  <locale xml:lang="en">
-    <style-options punctuation-in-quote="false"/>
-    <terms>
-      <term name="translator" form="short">trans. by</term>
-      <term name="paragraph" form="symbol">§</term>
-      <term name="open-quote">“</term>
-      <term name="close-quote">”</term>
-      <term name="open-inner-quote">‘</term>
-      <term name="close-inner-quote">’</term>
-      <term name="online">available online:</term>
-      <term name="volume" form="short">vol.</term>
-      <term name="number-of-volumes" form="short">vol.</term>
-      <term name="loc-cit" form="short">loc. cit.</term>
-      <term name="op-cit" form="short">op. cit.</term>
-    </terms>
-  </locale>
   <macro name="volume">
     <choose>
       <if is-numeric="volume">
