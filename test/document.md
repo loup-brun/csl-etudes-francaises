@@ -42,7 +42,7 @@ nocite: |
 
 ### Exemple de texte suivi avec des références
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ante enim, pellentesque in viverra vel, cursus nec erat[@Balibar1993 p. 8-10]. Nulla hendrerit[@Dumont1969] lobortis maximus[@Balibar1993, p. 113]. Nunc in mauris dictum, venenatis nisi et, malesuada turpis. Maecenas in enim in ante scelerisque commodo. Donec blandit mattis pellentesque. Fusce lobortis nisl lorem, at ornare odio blandit sit amet[@Dumont1964{} \[1964\]]. Integer tincidunt dolor arcu[@Dumont1969{} \[1969\]], sit amet varius turpis facilisis quis. Nulla vel accumsan sem[@Balibar1993 12].
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ante enim, pellentesque in viverra vel, cursus nec erat[@Balibar1993 p. 8-10]. Nulla hendrerit[@Dumont1969] lobortis maximus[@Balibar1993, p. 113]. Nunc in mauris dictum, venenatis nisi et, malesuada turpis. Maecenas in enim in ante scelerisque commodo. Donec blandit mattis pellentesque. Fusce lobortis nisl lorem, at ornare odio blandit sit amet[@Dumont1964]. Integer tincidunt dolor arcu[@Dumont1969{} \[1969\]], sit amet varius turpis facilisis quis. Nulla vel accumsan sem[@Asselin1981, p. 12].
 
 Nunc nunc ipsum, aliquet[@Berthier1995] non egestas sed, aliquet nec augue. Etiam augue ante, malesuada a mi a, lobortis rutrum mi. Pellentesque id cursus orci. Pellentesque commodo lorem ante, id facilisis nulla semper vel. Sed nec odio rutrum, volutpat massa quis, dignissim neque. Curabitur non ante rutrum, sollicitudin tortor sed, efficitur nunc. Quisque nec justo vel orci scelerisque porttitor. Sed sodales velit quis suscipit aliquam.
 
