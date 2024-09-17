@@ -18,7 +18,7 @@ Cette convention bibliographique est également utilisée par les [Presses de l�
 **Notes** :
 
 - Il n'est pas possible d'intégrer automatiquement la langue d'origine, par ex. « trad. de l'italien par ».
-- L'information entre crochets, lorsqu’on souhaite l’inclure, peut être ajoutée manuellement, à la fin de la référence, par exemple :
+- L'information entre crochets, lorsqu’on souhaite l’inclure, peut être ajoutée manuellement, à la fin de la référence, par exemple en rédigeant ses notes en texte brut avec [pandoc](https://pandoc.org/) :
   ```markdown
   [@Levine2010, p. 113 \[<i>Highbrow / Lowbrow. The Emergence of Cultural Hierarchy in America, 1988</i>\]]
   ```
