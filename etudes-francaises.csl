@@ -130,7 +130,19 @@
   </macro>
   <macro name="author">
     <names variable="author" delimiter=", ">
-      <name font-variant="normal" sort-separator=" " and="text" delimiter-precedes-last="never"/>
+      <name font-variant="normal" sort-separator=" " and="text" delimiter-precedes-last="never" />
+      <substitute>
+        <names variable="editor">
+          <name font-variant="normal" sort-separator=" " and="text"/>
+        </names>
+        <text macro="title"/>
+      </substitute>
+    </names>
+  </macro>
+  <!-- List authors as Lastname, Firstname in bibliography -->
+  <macro name="author-bibliography">
+    <names variable="author" delimiter=", ">
+      <name font-variant="normal" sort-separator=", " and="text" delimiter-precedes-last="never" name-as-sort-order="all" />
       <substitute>
         <names variable="editor">
           <name font-variant="normal" sort-separator=" " and="text"/>
@@ -236,16 +248,20 @@
     <label plural="never" suffix="&#160;" variable="locator" form="short"/>
     <text variable="locator" form="short"/>
   </macro>
+  <!-- If there is no author, display editor -->
+  <macro name="author-or-editor">
+    <choose>
+      <if match="any" variable="author">
+        <text macro="author" suffix=", "/>
+      </if>
+      <else-if match="none" variable="author">
+        <text macro="editor" suffix=", "/>
+      </else-if>
+    </choose>
+  </macro>
+  <!-- The full-note macro does not include the author part, because of the difference between citation and bibliography -->
   <macro name="full-note">
     <group>
-      <choose>
-        <if match="any" variable="author">
-          <text macro="author" suffix=", "/>
-        </if>
-        <else-if match="none" variable="author">
-          <text macro="editor" suffix=", "/>
-        </else-if>
-      </choose>
       <choose>
         <if match="any" type="thesis report">
           <group delimiter=", ">
@@ -390,6 +406,7 @@
         </else-if>
         <else>
           <group delimiter=", ">
+            <text macro="author-or-editor" />
             <text macro="full-note"/>
             <choose>
               <if variable="locator">
@@ -409,6 +426,15 @@
       <key variable="title"/>
     </sort>
     <layout suffix=".">
+      <choose>
+        <!-- Display editor if no author is specified -->
+        <if match="any" variable="author">
+          <text macro="author-bibliography" suffix=", "/>
+        </if>
+        <else-if match="none" variable="author">
+          <text macro="editor" suffix=", "/>
+        </else-if>
+      </choose>
       <text macro="full-note"/>
     </layout>
   </bibliography>
