@@ -132,6 +132,7 @@
     <choose>
       <if type="motion_picture">
         <group delimiter=", ">
+          <!-- Motion picture should display `director` -->
           <names variable="director" delimiter=", ">
             <name font-variant="normal" sort-separator=" " and="text" delimiter-precedes-last="never" />
           </names>
@@ -141,10 +142,10 @@
         <names variable="author" delimiter=", ">
           <name font-variant="normal" sort-separator=" " and="text" delimiter-precedes-last="never" />
           <substitute>
-            <names variable="editor">
-              <name font-variant="normal" sort-separator=" " and="text"/>
+            <names variable="editor" delimiter=", ">
+              <name font-variant="normal" sort-separator=" " and="text" delimiter-precedes-last="never"/>
+              <label form="short" text-case="lowercase" font-variant="normal" prefix=" (" suffix=")"/>
             </names>
-            <text macro="title"/>
           </substitute>
         </names>
       </else>
@@ -153,7 +154,7 @@
   <!-- List authors as Lastname, Firstname in bibliography -->
   <macro name="author-bibliography">
     <choose>
-      <if variable="director">
+      <if type="motion_picture">
         <names variable="director" delimiter=", ">
           <name font-variant="normal" sort-separator=", " and="text" delimiter-precedes-last="never" name-as-sort-order="all" />
         </names>
@@ -163,7 +164,8 @@
           <name font-variant="normal" sort-separator=", " and="text" delimiter-precedes-last="never" name-as-sort-order="all" />
           <substitute>
             <names variable="editor">
-              <name font-variant="normal" sort-separator=" " and="text"/>
+              <name font-variant="normal" sort-separator=" " and="text" delimiter-precedes-last="never" />
+              <label form="short" text-case="lowercase" font-variant="normal" prefix=" (" suffix=")"/>
             </names>
             <text macro="title"/>
           </substitute>
@@ -268,16 +270,6 @@
     <label plural="never" suffix="&#160;" variable="locator" form="short"/>
     <text variable="locator" form="short"/>
   </macro>
-  <macro name="author-or-editor">
-    <choose>
-      <if match="any" variable="author">
-        <text macro="author" suffix=", "/>
-      </if>
-      <else-if match="none" variable="author">
-        <text macro="editor" suffix=", "/>
-      </else-if>
-    </choose>
-  </macro>
   <!-- The full-note macro does not include the author part, because of the difference between citation and bibliography -->
   <macro name="full-note">
     <group>
@@ -343,15 +335,6 @@
                 </else>
               </choose>
             </if>
-            <else-if type="motion_picture">
-              <group delimiter=", ">
-                <text macro="title" font-style="italic"/>
-                <text macro="genre"/>
-                <text macro="volume"/>
-                <text macro="publisher"/>
-                <text macro="year-date"/>
-              </group>
-            </else-if>
             <else>
               <text macro="book"/>
             </else>
@@ -391,6 +374,15 @@
             <text macro="title" quotes="true"/>
             <text macro="archive"/>
             <text macro="number-of-pages"/>
+          </group>
+        </else-if>
+        <else-if type="motion_picture">
+          <group delimiter=", ">
+            <text macro="title" font-style="italic"/>
+            <text macro="volume"/>
+            <text macro="publisher"/>
+            <text macro="year-date"/>
+            <text variable="dimensions"/>
           </group>
         </else-if>
         <else>
